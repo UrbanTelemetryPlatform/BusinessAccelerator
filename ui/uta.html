@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="libs/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" pan-favicon="" href="assets/favicon.png">
+
+    <title>Business Accelerator</title>
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="js/calculatorBuilder.js"></script>
+    <script>
+      $(document).ready(function(){
+        initializeCalculator();
+      });     
+    </script>
+
+</head>
+  <body>
+
+        <nav class="navbar fixed-top bluenav">
+            <a class="navbar-brand " href="#">
+               <!-- <img src="/assets/cbicon.png" width="30" height="30"  class="d-inline-block align-top" alt=""> -->
+                Google Cloud Platform - Business Accelerators
+            </a>
+        </nav>
+
+        <div class="container-fluid noPad storefront">
+            
+          <div class="slogan">
+             <h2>Urban Telemetry Accelerator</h2>
+             <h4>Turn your city into a smart & happy place</h4>
+          </div>
+
+        
+        </div>
+        
+
+        <div class="container-fluid containerPad" style="padding-bottom:2px">
+           <h5 class="headline">Components in this Accelerators</h5>
+            <div class="row">
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/iotcloud.png" width="40px" height="40px">
+                      <div class="title">IoT Core</div>
+                      <div class="role">Ingestion</div>
+                      <div class="target">Directly connecting the devices and sensors.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/Cloud PubSub.png" width="40px" height="40px">
+                      <div class="title">Cloud Pub/Sub</div>
+                      <div class="role">Ingestion</div>
+                      <div class="target">Powerful messaging queue as a service.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/Cloud Dataflow.png" width="40px" height="40px">
+                      <div class="title">Cloud Dataflow</div>
+                      <div class="role">Ingestion</div>
+                      <div class="target">Graphical design of data processing in ingestion.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/BigQuery.png" width="40px" height="40px">
+                      <div class="title">BigQuery</div>
+                      <div class="role">Storage</div>
+                      <div class="target">Inifinite and serverless big data storage and processing.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/Cloud Datastore.png" width="40px" height="40px">
+                      <div class="title">Cloud Datastore</div>
+                      <div class="role">Storage</div>
+                      <div class="target">Data store for slow-turning data and materialization.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/App Engine.png" width="40px" height="40px">
+                      <div class="title">App Engine</div>
+                      <div class="role">Processing</div>
+                      <div class="target">Enviroment to build and run microservices and apps.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/datastudio.png" width="40px" height="40px">
+                      <div class="title">Data Studio</div>
+                      <div class="role">Visualization</div>
+                      <div class="target">Enviroment to build and run microservices that process the data.</div>
+                    </div>    
+              </div>
+              <div class=".col-sm">
+                  <div class="tilesmall">
+                      <img src="assets/App Engine.png" width="40px" height="40px">
+                      <div class="title">App Engine</div>
+                      <div class="role">Visualization</div>
+                      <div class="target">Enviroment to build and run customer facing apps and APIs.</div>
+                    </div>    
+              </div>
+            </div>
+            <h5 class="headline">Deploy this Accelerator</h5>
+            <div class="row">
+              <button type="button" class="btn btn-success btnDeploy">Deploy to Existing Project</button>
+              <button type="button" class="btn btn-success btnDeploy">Deploy to New Project</button>
+              <button type="button" class="btn btnDeploy">Open Accelerator Activation Guide</button>
+            </div>
+            <br/>
+
+           <h5 class="headline">Pricing Caluclator</h5>
+
+           <div class="row">
+              <div class="col-lg">
+                <div class="container-fluid containerPad" id="calccontainer" style="padding-top:2px">
+          
+              
+                </div>
+  
+              </div>
+              <div class="col-lg">
+                  <div class="container-fluid containerPad" id="resultcontainer" style="padding-top:2px">
+          
+              
+                  </div>  
+              </div>
+            </div>
+        </div>
+        
+          
+            
+
+  
+  </body>
+</html>

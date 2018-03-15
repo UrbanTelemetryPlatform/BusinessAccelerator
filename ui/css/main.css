@@ -1,0 +1,254 @@
+html, body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f1f1f1;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.noPad{
+    padding:0px;
+}
+
+.topPad{
+    padding-top: 65px;
+}
+
+.btnDeploy{
+    margin-left: 20px;
+}
+
+.bluenav{
+    background-color:rgb(59, 120, 231);
+    color: white;
+}
+
+.bluenav .navbar-brand {
+    color: white;
+}
+
+.storefront {
+    background-image: url("../assets/storefront_header.png");
+    background-size: auto 308px;
+    height: 308px;
+}
+
+.slogan{
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    
+}
+
+.slogan h4{
+    font-weight: 100;
+}
+
+.tile{
+    background-color:#FFF;
+    border: #999;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(50,50,50,0.4);
+
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom:30px;
+
+    cursor: pointer;
+}
+
+.tilesmall{
+    background-color:#FFF;
+    border: #999;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(50,50,50,0.4);
+
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15px;
+    margin-bottom:30px;
+
+    cursor: pointer;
+    position: relative;
+}
+
+.role{
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    font-size: 12px;
+    color:rgb(59, 120, 231);
+}
+
+.headline{
+    color:#999;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.target{
+    font-size: 12px;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+}
+
+.nolinks * {
+    pointer-events: none;
+    cursor: default;
+    text-decoration:none;
+}
+
+.containerPad{
+    padding:40px;
+}
+
+.group{
+    border-left: 10px solid #333 ;
+    /*padding-bottom: 20px;*/
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.groupCloseToggle{
+    position: absolute;
+    left: 700px;
+    top:12px;
+    cursor: pointer;
+}
+
+
+.group.closedOnStart .node{ 
+    display: none;
+}
+
+.grouptitle{
+    background-color: #333;
+    height:50px;
+    color: white;
+    width: 750px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.node{
+    position: relative;
+    background-color:#FFF;
+    border: 1px solid #DDD;
+   
+    height: 30px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.nodename{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 12px;
+}
+
+.nodeinp{
+    position: absolute;
+    left: 250px;
+    top: 2px;
+    width: 150px;
+    font-size: 12px;
+    padding: 1px;
+    text-align: right;
+}
+
+.nodeprice{
+    position: absolute;
+    left: 355px;
+    top: 2px;
+    width: 80px;
+    font-size: 12px;
+    padding: 1px;
+    text-align: right;
+}
+
+.currencyAndFactor{
+    position: absolute;
+    left: 340px;
+    top: 2px; 
+}
+
+.nodepriceunits{
+    position: absolute;
+    left: 250px;
+    top: 2px;
+    width: 80px;
+    font-size: 12px;
+    padding: 1px;
+    text-align: right;
+}
+
+.nodeinp.priceresult{
+    position: absolute;
+    left: 560px;
+    top: 2px;
+    width: 80px;
+    font-size: 12px;
+    padding: 1px;
+    text-align: right;
+}
+
+.resultSign{
+    position: absolute;
+    left: 540px;
+    top: 2px;
+}
+
+.nodehint{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+   width: 20px;
+   height: 20px;
+    padding: 1px;
+    opacity: 0.4;
+    border: none;
+    color: steelblue;
+}
+
+.noderesult{
+    position: absolute;
+    left: 250px;
+    top: 3px;
+    width: 140px;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.nodeunit{
+    position: absolute;
+    left: 410px;
+    top: 7px;
+    font-size: 10px;
+}
+
+.nodeunit.pricing{
+    left: 440px;
+}
+
+
+
+.highlight{
+    border: 1px solid red;
+}
