@@ -23,7 +23,7 @@
     {"calculatorID":"C1","nodeID":"9","type":"Input","group":"Input","name":"Citizen User","description":"","content":{"default": 1000 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"Users","hint":""},
     
     {"calculatorID":"C1","nodeID":"4","type":"Input","group":"Assumptions","name":"MessageSize","description":"","content":{"default": 500 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"Byte","hint":"Size of a single message"},
-    {"calculatorID":"C1","nodeID":"10","type":"Input","group":"Assumptions","name":"MessageToStorageFactor","description":"","content":{"default": 0.4 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"factor","hint":""},
+    {"calculatorID":"C1","nodeID":"10","type":"Input","group":"Assumptions","name":"MessageToStorageFactor","description":"","content":{"default": 0.5 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"factor","hint":"Based on the historical data stored in BQ"},
     {"calculatorID":"C1","nodeID":"11","type":"Input","group":"Assumptions","name":"DirectSensorAccess","description":"","content":{"default": 1 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"boolean","hint":""},
     {"calculatorID":"C1","nodeID":"12","type":"Input","group":"Assumptions","name":"ProcessingTimeMessageRead","description":"","content":{"default": 2 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"Minutes","hint":""},
     {"calculatorID":"C1","nodeID":"13","type":"Input","group":"Assumptions","name":"QueriesPerHour","description":"","content":{"default": 4 },"dependencyIn":"","dependencyOut":"","unitOfMeasure":"Amount","hint":""},
