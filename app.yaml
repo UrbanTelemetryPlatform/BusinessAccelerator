@@ -1,8 +1,8 @@
 runtime: go
 api_version: go1
 env: standard
-service: calculator
+service: ui-calculator
 
 handlers:
 - url: /.*
-  script: _go_appy
+  script: _go_app
